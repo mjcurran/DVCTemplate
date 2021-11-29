@@ -1,0 +1,7 @@
+stages:
+  get_datasets:
+    cmd: cp -r /Users/crc/python/data/MNIST ./datasets/MNIST
+    deps:
+    - /Users/crc/python/data/MNIST
+    outs:
+    - ./datasets/MNIST

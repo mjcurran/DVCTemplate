@@ -1,0 +1,4 @@
+[cache]
+    dir = /Users/crc/python/sharedcache
+    shared = group
+    type = symlink

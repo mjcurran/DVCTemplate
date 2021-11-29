@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  get_datasets:
+    cmd: cp -r /Users/crc/python/data/MNIST ./datasets/MNIST
+    deps:
+    - path: /Users/crc/python/data/MNIST
+      md5: 7e8ecc940d89c4e50be1f0af0b7bfab7.dir
+      size: 66550918
+      nfiles: 9
+    outs:
+    - path: ./datasets/MNIST
+      md5: 7e8ecc940d89c4e50be1f0af0b7bfab7.dir
+      size: 66550918
+      nfiles: 9
